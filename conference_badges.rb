@@ -13,7 +13,7 @@ end
 batch_badge_creator
 
 
-def assign_rooms (speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
+def assign_rooms (speakers)
 rooms = 7
 speakers.each do |name|
   puts "Hello, #{name}! You'll be assigned to room #{rooms}!"
