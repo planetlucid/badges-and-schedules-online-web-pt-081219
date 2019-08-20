@@ -16,7 +16,7 @@ speakers.each do |name| badge_messages << #{name}
   badge_messages 
   end
 end
-batch_badge_creator
+
 
 
 def assign_rooms (speakers)
@@ -26,7 +26,7 @@ speakers.each do |name|
   rooms -= 1
   end
 end
-assign_rooms
+
 
 
 def printer(speakers)
